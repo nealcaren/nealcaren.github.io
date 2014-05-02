@@ -1,3 +1,57 @@
+<!DOCTYPE html>
+<script src="sorttable.js"></script>
+<style type="text/css">
+               body {
+			background-color:#D9D9D9;
+			text-rendering:optimizeLegibility;
+			color:#222;
+			margin-left:10%;
+			font-family: Verdana, sans-serif;
+                       font-size:12px;
+			text-align:left;
+                       width:600;
+			}
+		h1 {
+			font-weight:normal;
+			font-size:32px;
+			margin-left:0px;
+			}
+
+th, td {
+  padding: 2px !important;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#000;
+    color:#D9D9D9;
+    font-weight: bold;
+    cursor: default;
+}
+th {
+  font-size: 100%;
+}
+
+</style><html><body>
+<h1>Tempo Free NCAA Women's Lacrosse</h1>
+<p>Includes games played up until 5/1.  
+Made by <a href="http://nealcaren.github.io"  target="_blank">Neal Caren</a> (<a href="mailto:neal.caren@gmail.com"  target="_blank">neal.caren@gmail.com</a>)</p>
+
+<br><b>Pos:</b> Average number of possession per team. Lower is slower. Possessions is the sum of ground controls, draw balls, and saves.
+<br><b>Pos %:</b> Percent of a game possession's the team controlled. More is better.
+<br><b>O GPP:</b> Number of goals scored per offensive possession.
+<br><b>Off Eff:</b> Expect number of goals scored at a game with a Div 1 average number of possessions, 36 per team. Based on goals per possessions and % of possessions.
+<br><b>Opp Def Ave:</b> Average defensive efficiency of opposition. Measures strength of schedule. 
+<br><b>Off Eff Adj:</b> Offensive efficiency adjusted for strength of schedule. Offensive efficiency multiplied by opponent defensive efficiency divided league average efficiency.
+<br><b>Def Eff:</b> Expect number of goals scored on in a game with a Div 1 average number of possessions, 36 per team. Based on goals per possession given up and 
+% of possessions that other team has the ball.
+<br><b>Opp Off Ave:</b> Average offensive efficiency of opposition. Measures strength of schedule.
+<br><b>Def Eff Adj:</b> Defensive efficiency adjusted for strength of schedule. Defensive efficiency multiplied by opponent offensive efficiency divided league average efficiency.
+<br><b>Eff:</b> Efficiency is the sum of the offensive and defensive efficiency.
+<br><b>Eff Adj:</b> Adjusted effency is the sum of the adjusted offensive and adjusted defensive efficiency. 
+
+
+<p>  <br> </p>
 <table border="1" class="dataframe sortable">
   <thead>
     <tr style="text-align: left;">
