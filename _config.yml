@@ -197,6 +197,7 @@ exclude:
   - _projects/
   - _projects/?_project.md
   - _pages/blog.md
+  - _pages/_projects.md
   - _pages/profiles.md
   - _pages/teaching.md
   - _pages/repositories.md
