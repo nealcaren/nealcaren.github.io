@@ -193,9 +193,15 @@ exclude:
   - readme_preview/
   - vendor
   - _news/announcement_*.md
-  - _pages/blog.md
   - _posts/
+  - _projects/
   - _projects/?_project.md
+  - _pages/blog.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/repositories.md
+  - _pages/dropdown.md
+  - _pages/cv.md
   - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
