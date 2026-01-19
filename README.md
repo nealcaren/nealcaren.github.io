@@ -26,3 +26,4 @@ Then visit `http://localhost:4000`
 ## License
 
 Content is copyright Neal Caren. The al-folio theme is MIT licensed.
+
